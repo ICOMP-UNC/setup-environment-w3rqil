@@ -1,0 +1,3 @@
+/home/leonel/Desktop/SOII/LAB0SETUP/build/CMakeFiles/FirstProjectInCMake.dir
+/home/leonel/Desktop/SOII/LAB0SETUP/build/CMakeFiles/edit_cache.dir
+/home/leonel/Desktop/SOII/LAB0SETUP/build/CMakeFiles/rebuild_cache.dir

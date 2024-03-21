@@ -1,6 +1,17 @@
 # ninja log v5
-0	81	1710943675547936734	CMakeFiles/FirstProjectInCMake.dir/src/greetings.c.o	a25d2af80bda6dc5
-0	80	1710943675543936873	CMakeFiles/FirstProjectInCMake.dir/src/main.c.o	7e026e1d7830d0f4
-0	27	1710943828534618300	build.ninja	d7aef24e3258810e
-0	27	1710943828566617194	CMakeFiles/FirstProjectInCMake.dir/src/main.c.o	7e026e1d7830d0f4
-27	58	1710943828598616088	FirstProjectInCMake	d0fd7e2f0d85ae86
+0	56	1711027358403952971	CMakeFiles/FirstProjectInCMake.dir/src/logic.c.o	a6d61b49651a2fc9
+5	95	1711027358447951085	lib/libdyn/CMakeFiles/DynamiCLib.dir/src/shared.c.o	8ed630d0c1fb9fd6
+0	71	1711027358423952114	CMakeFiles/FirstProjectInCMake.dir/src/greetings.c.o	218111b29863d8ae
+0	88	1711027358439951428	CMakeFiles/FirstProjectInCMake.dir/src/main.c.o	21427fbdb3e30c41
+15	123	1711027358455950743	lib/libsta/CMakeFiles/StatiCLib.dir/src/static.c.o	16bb2ad4c8b8c63d
+2	253	1711027358607944226	_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o	111575c2660a9e5b
+97	151	1711027358503948685	lib/libdyn/libDynamiCLib.so	640631cca2d7503d
+222	270	1711027358623943541	FirstProjectInCMake	55e9d0d08b4d2071
+254	305	1711027358655942169	_deps/unity-build/libunity.a	e52dcfaa93dfc3ee
+72	166	1711027358495949028	tests/CMakeFiles/test_FirstProjectInCMake.dir/__/src/logic.c.o	72cbc199b0d08fe2
+124	222	1711027358563946113	lib/libsta/libStatiCLib.a	2982c3937d4698e8
+57	230	1711027358583945256	tests/CMakeFiles/test_FirstProjectInCMake.dir/unit/test_unit_program.c.o	948687b866483558
+305	334	1711027358687940797	tests/test_FirstProjectInCMake	3792a2c34b6da197
+1	144	1711027762630744329	tests/CMakeFiles/test_FirstProjectInCMake.dir/__/src/logic.c.o	c6288313994223a8
+1	148	1711027762634744160	tests/CMakeFiles/test_FirstProjectInCMake.dir/unit/test_unit_program.c.o	676d1f473ec7e6ae
+148	201	1711027762686741959	tests/test_FirstProjectInCMake	e33fb446328067e2

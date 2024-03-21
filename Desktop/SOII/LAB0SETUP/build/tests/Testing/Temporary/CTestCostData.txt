@@ -1,0 +1,2 @@
+test_FirstProjectInCMake 2 0.00061668
+---

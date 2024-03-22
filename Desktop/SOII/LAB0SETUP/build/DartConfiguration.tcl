@@ -29,7 +29,7 @@ NightlyStartTime: 00:00:00 EDT
 # Commands for the build/test/submit cycle
 ConfigureCommand: "/usr/local/bin/cmake" "/home/leonel/Desktop/SOII/LAB0SETUP"
 MakeCommand: /usr/local/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
-DefaultCTestConfigurationType: Release
+DefaultCTestConfigurationType: Debug
 
 # version control
 UpdateVersionOnly: 
@@ -76,7 +76,7 @@ CudaSanitizerCommand:
 CudaSanitizerCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
-MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
+MemoryCheckCommand: /usr/bin/valgrind
 MemoryCheckCommandOptions: 
 MemoryCheckSuppressionFile: 
 
@@ -95,7 +95,7 @@ TimeOut: 1500
 # so would cause the system load to exceed this value.
 TestLoad: 
 
-UseLaunchers: 
+UseLaunchers: TRUE
 CurlOptions: 
 # warning, if you add new options here that have to do with submit,
 # you have to update cmCTestSubmitCommand.cxx

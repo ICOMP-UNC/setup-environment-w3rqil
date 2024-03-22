@@ -1,0 +1,13 @@
+[1/13] Building C object tests/CMakeFiles/test_FirstProjectInCMake.dir/unit/test_unit_program.c.o
+[2/13] Building C object tests/CMakeFiles/test_FirstProjectInCMake.dir/__/src/logic.c.o
+[3/13] Building C object CMakeFiles/FirstProjectInCMake.dir/src/logic.c.o
+[4/13] Building C object lib/libsta/CMakeFiles/StatiCLib.dir/src/static.c.o
+[5/13] Building C object CMakeFiles/FirstProjectInCMake.dir/src/greetings.c.o
+[6/13] Building C object CMakeFiles/FirstProjectInCMake.dir/src/main.c.o
+[7/13] Building C object lib/libdyn/CMakeFiles/DynamiCLib.dir/src/shared.c.o
+[8/13] Building C object _deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o
+[9/13] Linking C shared library lib/libdyn/libDynamiCLib.so
+[10/13] Linking C static library lib/libsta/libStatiCLib.a
+[11/13] Linking C static library _deps/unity-build/libunity.a
+[12/13] Linking C executable FirstProjectInCMake
+[13/13] Linking C executable tests/test_FirstProjectInCMake

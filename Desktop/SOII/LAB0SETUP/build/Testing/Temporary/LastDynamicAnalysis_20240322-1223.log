@@ -1,0 +1,26 @@
+Start testing: Mar 22 09:23 -03
+----------------------------------------------------------
+1/1 Testing: test_FirstProjectInCMake
+1/1 Test: test_FirstProjectInCMake
+Command: "/usr/bin/valgrind" "--log-file=/home/leonel/Desktop/SOII/LAB0SETUP/build/Testing/Temporary/MemoryChecker.1.log" "--trace-children=yes" "--leak-check=full" "/home/leonel/Desktop/SOII/LAB0SETUP/build/tests/test_FirstProjectInCMake"
+Directory: /home/leonel/Desktop/SOII/LAB0SETUP/build/tests
+"test_FirstProjectInCMake" start time: Mar 22 09:23 -03
+Output:
+----------------------------------------------------------
+/home/leonel/Desktop/SOII/LAB0SETUP/tests/unit/test_unit_program.c:41:test_logic_add:PASS
+/home/leonel/Desktop/SOII/LAB0SETUP/tests/unit/test_unit_program.c:42:test_logic_subtract:PASS
+/home/leonel/Desktop/SOII/LAB0SETUP/tests/unit/test_unit_program.c:43:test_logic_multiply:PASS
+/home/leonel/Desktop/SOII/LAB0SETUP/tests/unit/test_unit_program.c:44:test_logic_divide:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+<end of output>
+Test time =   1.27 sec
+----------------------------------------------------------
+Test Passed.
+"test_FirstProjectInCMake" end time: Mar 22 09:23 -03
+"test_FirstProjectInCMake" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Mar 22 09:23 -03

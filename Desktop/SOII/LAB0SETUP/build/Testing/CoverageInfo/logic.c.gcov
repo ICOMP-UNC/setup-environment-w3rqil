@@ -1,0 +1,53 @@
+        -:    0:Source:/home/leonel/Desktop/SOII/LAB0SETUP/src/logic.c
+        -:    0:Graph:/home/leonel/Desktop/SOII/LAB0SETUP/build/tests/CMakeFiles/test_FirstProjectInCMake.dir/__/src/logic.c.gcno
+        -:    0:Data:/home/leonel/Desktop/SOII/LAB0SETUP/build/tests/CMakeFiles/test_FirstProjectInCMake.dir/__/src/logic.c.gcda
+        -:    0:Runs:2
+        -:    1:#include "logic.h"
+        -:    2:
+        -:    3:/**
+        -:    4: * @brief Add two numbers
+        -:    5: * @param a First number
+        -:    6: * @param b Second number
+        -:    7: * @return Sum of a and b
+        -:    8: */
+        4:    9:int add(int a, int b)
+        -:   10:{
+        4:   11:    return a + b;
+        -:   12:}
+        -:   13:
+        -:   14:/**
+        -:   15: * @brief Subtract two numbers
+        -:   16: * @param a First number
+        -:   17: * @param b Second number
+        -:   18: * @return Difference of a and b
+        -:   19: */
+        4:   20:int subtract(int a, int b)
+        -:   21:{
+        4:   22:    return a - b;
+        -:   23:}
+        -:   24:
+        -:   25:/**
+        -:   26: * @brief Multiply two numbers
+        -:   27: * @param a First number
+        -:   28: * @param b Second number
+        -:   29: * @return Product of a and b
+        -:   30: */
+        4:   31:int multiply(int a, int b)
+        -:   32:{
+        4:   33:    return a * b;
+        -:   34:}
+        -:   35:
+        -:   36:/**
+        -:   37: * @brief Divide two numbers
+        -:   38: * @param a First number
+        -:   39: * @param b Second number
+        -:   40: * @return Quotient of a and b
+        -:   41: */
+        4:   42:double divide(int a, int b)
+        -:   43:{
+        4:   44:    if (b != 0)
+        4:   45:        return (double) a / b;
+    #####:   46:    return -1.0;
+        -:   47:}
+        -:   48:
+        -:   49:

@@ -1,0 +1,8 @@
+Upload files:
+0	Coverage.xml
+1	CoverageLog-0.xml
+2	Done.xml
+	Upload file: /home/leonel/Desktop/SOII/LAB0SETUP/build/Testing/20240322-1223/Coverage.xml to leonel-GFAST___linux-x86_64-gcc___20240322-1223-Experimental___XML___Coverage.xml
+   Error when uploading file: /home/leonel/Desktop/SOII/LAB0SETUP/build/Testing/20240322-1223/Coverage.xml
+   Error message was: Failed to connect to localhost port 8080 after 0 ms: Couldn't connect to server
+   Problems when submitting via HTTP

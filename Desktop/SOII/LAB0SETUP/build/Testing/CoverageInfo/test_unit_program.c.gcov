@@ -1,0 +1,50 @@
+        -:    0:Source:/home/leonel/Desktop/SOII/LAB0SETUP/tests/unit/test_unit_program.c
+        -:    0:Graph:/home/leonel/Desktop/SOII/LAB0SETUP/build/tests/CMakeFiles/test_FirstProjectInCMake.dir/unit/test_unit_program.c.gcno
+        -:    0:Data:/home/leonel/Desktop/SOII/LAB0SETUP/build/tests/CMakeFiles/test_FirstProjectInCMake.dir/unit/test_unit_program.c.gcda
+        -:    0:Runs:2
+        -:    1:#include <unity.h>
+        -:    2:#include <logic.h>
+        -:    3:
+        2:    4:void test_logic_add(void)
+        -:    5:{
+        2:    6:    TEST_ASSERT_EQUAL(5, add(2, 3));
+       2*:    7:    TEST_ASSERT_NOT_EQUAL(6, add(2, 3));
+        2:    8:}
+        -:    9:
+        2:   10:void test_logic_subtract(void)
+        -:   11:{
+        2:   12:    TEST_ASSERT_EQUAL(2, subtract(5, 3));
+       2*:   13:    TEST_ASSERT_NOT_EQUAL(3, subtract(5, 3));
+        2:   14:}
+        -:   15:
+        2:   16:void test_logic_multiply(void)
+        -:   17:{
+        2:   18:    TEST_ASSERT_EQUAL(6, multiply(2, 3));
+       2*:   19:    TEST_ASSERT_NOT_EQUAL(7, multiply(2, 3));
+        2:   20:}
+        -:   21:
+        2:   22:void test_logic_divide(void)
+        -:   23:{
+        2:   24:    TEST_ASSERT_EQUAL(3, divide(6, 2));
+       2*:   25:    TEST_ASSERT_NOT_EQUAL(4, divide(6, 2));
+        2:   26:}
+        -:   27:
+        8:   28:void setUp(void) 
+        -:   29:{
+        -:   30:
+        8:   31:}
+        -:   32:
+        8:   33:void tearDown(void) 
+        -:   34:{
+        -:   35:
+        8:   36:}
+        -:   37:
+        2:   38:int main(void)
+        -:   39:{
+        2:   40:    UNITY_BEGIN();
+        2:   41:    RUN_TEST(test_logic_add);
+        2:   42:    RUN_TEST(test_logic_subtract);
+        2:   43:    RUN_TEST(test_logic_multiply);
+        2:   44:    RUN_TEST(test_logic_divide);
+        2:   45:    return UNITY_END();
+        -:   46:}

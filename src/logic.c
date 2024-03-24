@@ -45,5 +45,3 @@ double divide(int a, int b)
         return (double) a / b;
     return -1.0;
 }
-
-
